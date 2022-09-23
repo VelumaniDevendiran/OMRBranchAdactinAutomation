@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0"
+	name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2"
+	time="45.941">
+	<testcase classname="Verifying Adactin Cancel Booking page"
+		name="Veryfying Adactin Cancel Booking" time="32.971">
+		<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should perform login "Velumani","Mine@123#".......................passed
+Then User should verify after login "Hello Velumani!".......................passed
+And User should enter details in Search Hotel "London","Hotel Creek","Standard","2 - Two","25/08/2022","28/08/2022","1 - One" and "0 - None".passed
+Then User should verify  after Select Hotel page msg "Select Hotel".........passed
+And User should selct hotel and click continue..............................passed
+Then User should verify after continue "Book A Hotel".......................passed
+And User should perform book hotel "Velumani","Devendiran" and "Chennai OMR 119".passed
+Then User should verify after click book now msg "Booking Confirmation".....passed
+And User should cancel booking with generated order id......................passed
+Then User should Verify after Cancel selected "The booking has been cancelled.".passed
+]]></system-out>
+	</testcase>
+	<testcase classname="Verifying Adactin Cancel Booking page"
+		name="Veryfying Adactin Cancel Booking 2" time="12.627">
+		<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should perform login "Velumani","Mine@123#".......................passed
+Then User should verify after login "Hello Velumani!".......................passed
+And User should cancel booking with exitsing "<orderid>"....................passed
+Then User should Verify after Cancel selected "The booking has been cancelled.".passed
+]]></system-out>
+	</testcase>
+</testsuite>

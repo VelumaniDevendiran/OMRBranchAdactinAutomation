@@ -1,0 +1,123 @@
+
+[{"line":2,"elements":[{"start_timestamp":"2022-09-06T09:21:40.837Z","before":[{"result":{"duration":9077000000,"status":"passed"},"match":{"location":"com.stepdefinition.HooksClass.beforeScenario()"}}],"line":11,"name":"Veryfying
+Adactin login with valid
+credentials","description":"","id":"verifying-adactin-login-hotel-details;veryfying-adactin-login-with-valid-credentials;;2","after":[{"result":{"duration":656000000,"status":"passed"},"match":{"location":"com.stepdefinition.HooksClass.afterScenario()"}}],"type":"scenario","keyword":"Scenario
+Outline","steps":[{"result":{"duration":2872000000,"status":"passed"},"line":5,"name":"User
+is on the adactin
+page","match":{"location":"com.stepdefinition.TC1_LoginStep.user_is_on_the_adactin_page()"},"keyword":"Given
+"},{"result":{"error_message":"org.openqa.selenium.NoSuchWindowException:
+no such window: target window already closed\nfrom unknown error: web
+view not found\n (Session info: chrome=104.0.5112.102)\nBuild info:
+version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host:
+'DESKTOP-HSH3T0A', ip: '192.168.1.93', os.name: 'Windows 10', os.arch:
+'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info:
+org.openqa.selenium.chrome.ChromeDriver\nCommand:
+[752cac2e6c85334ce0fe27ca214933f8, findElement {using=id,
+value=username}]\nCapabilities {acceptInsecureCerts: false, browserName:
+chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion:
+104.0.5112.79 (3cf3e8c8a07d..., userDataDir:
+C:\\Users\\VELUMA~1\\AppData\\L...}, goog:chromeOptions:
+{debuggerAddress: localhost:51522}, networkConnectionEnabled: false,
+pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp:
+ws://localhost:51522/devtoo..., se:cdpVersion: 104.0.5112.102,
+setWindowRect: true, strictFileInteractability: false, timeouts:
+{implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+dismiss and notify, webauthn:extension:credBlob: true,
+webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators:
+true}\nSession ID: 752cac2e6c85334ce0fe27ca214933f8\r\n\tat
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native
+Method)\r\n\tat
+sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown
+Source)\r\n\tat
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown
+Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown
+Source)\r\n\tat
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat
+com.sun.proxy.$Proxy23.sendKeys(Unknown Source)\r\n\tat
+com.base.BaseClass.elementSendKeys(BaseClass.java:122)\r\n\tat
+com.pages.LoginPage.login(LoginPage.java:54)\r\n\tat
+com.stepdefinition.TC1_LoginStep.user_should_perform_login(TC1_LoginStep.java:35)\r\n\tat
+✽.User should perform login
+\"Velumani\",\"Mine@123#\"(file:///C:/Users/Velumani%20Devendiran/eclipse-workspace/OMRBranchAdactinAutomation/src/test/resources/Features/TC1_Login.feature:6)\r\n","duration":234000000,"status":"failed"},"line":6,"name":"User
+should perform login
+\"Velumani\",\"Mine@123#\"","match":{"arguments":[{"val":"\"Velumani\"","offset":26},{"val":"\"Mine@123#\"","offset":37}],"location":"com.stepdefinition.TC1_LoginStep.user_should_perform_login(java.lang.String,java.lang.String)"},"keyword":"When
+"},{"result":{"duration":12000000,"status":"skipped"},"line":7,"name":"User
+should verify after login \"Hello
+Velumani!\"","match":{"arguments":[{"val":"\"Hello
+Velumani!\"","offset":31}],"location":"com.stepdefinition.CommonStep.user_should_verify_after_login(java.lang.String)"},"keyword":"Then
+"}],"tags":[{"name":"@Login"}]},{"start_timestamp":"2022-09-06T09:21:53.823Z","before":[{"result":{"duration":3676000000,"status":"passed"},"match":{"location":"com.stepdefinition.HooksClass.beforeScenario()"}}],"line":20,"name":"Verifying
+Adactin login with valid credentials with
+Enter","description":"","id":"verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials-with-enter;;2","type":"scenario","keyword":"Scenario
+Outline","steps":[{"result":{"duration":3904000000,"status":"passed"},"line":14,"name":"User
+is on the adactin
+page","match":{"location":"com.stepdefinition.TC1_LoginStep.user_is_on_the_adactin_page()"},"keyword":"Given
+"}],"tags":[{"name":"@Login"}]}],"name":"Verifying Adactin Login Hotel
+details","description":"","id":"verifying-adactin-login-hotel-details","keyword":"Feature","uri":"file:src/test/resources/Features/TC1_Login.feature","tags":[{"name":"@Login","type":"Tag","location":{"line":1,"column":1}}]},{"line":1,"elements":[{"start_timestamp":"2022-09-06T09:22:01.411Z","line":2,"name":"Failure
+while executing
+Cucumber","description":"","id":"failure;failure-while-executing-cucumber","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":0,"status":"passed"},"line":3,"name":"Cucumber
+failed while
+executing","match":{"arguments":[],"location":"io.cucumber.core.Failure.failure_while_executing_cucumber()"},"keyword":"When
+"},{"result":{"duration":0,"error_message":"org.junit.runner.notification.StoppedByUserException\r\n\tat
+org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:151)\r\n\tat
+io.cucumber.junit.JUnitReporter$EachTestNotifier.fireTestStarted(JUnitReporter.java:236)\r\n\tat
+io.cucumber.junit.JUnitReporter.handTestStepStarted(JUnitReporter.java:88)\r\n\tat
+io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\r\n\tat
+io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\r\n\tat
+io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:61)\r\n\tat
+io.cucumber.core.runner.TestStep.emitTestStepStarted(TestStep.java:74)\r\n\tat
+io.cucumber.core.runner.TestStep.run(TestStep.java:52)\r\n\tat
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)\r\n\tat
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\r\n\tat
+io.cucumber.junit.PickleRunners$WithStepDescriptions.lambda$run$1(PickleRunners.java:109)\r\n\tat
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)\r\n\tat
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\r\n\tat
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)\r\n\tat
+io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:106)\r\n\tat
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\r\n\tat
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\r\n\tat
+org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat
+org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat
+org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat
+org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\r\n\tat
+io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\r\n\tat
+io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\r\n\tat
+org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat
+org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat
+io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)\r\n\tat
+io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)\r\n\tat
+io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)\r\n\tat
+io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)\r\n\tat
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat
+org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat
+org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n","status":"failed"},"line":4,"name":"Cucumber
+will report this
+error:","match":{"arguments":[],"location":"io.cucumber.core.Failure.cucumber_reports_this_error()"},"keyword":"Then
+"}]}],"name":"Test run failed","description":"There were errors during
+the
+execution","id":"failure","keyword":"Feature","uri":"classpath:io/cucumber/core/failure.feature","tags":[]}]
